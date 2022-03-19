@@ -135,41 +135,21 @@ margin-bottom:10%;
 }
 
 
-
 .wrapper{
-  color: black;
-  font-size: 5%;
-  display: inline-block;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  text-decoration: none;
+display:flex;
+margin:0 auto;
 }
 
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background-color: #46c1f6;
-  color: #ffffff;
+.wrapper a{
+color:black;
+padding:5%;
+font-size:120%;
 }
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background-color: #e1306c;
-  color: #ffffff;
+
+.wrapper a:hover{
+opacity:0.7;
 }
-.wrapper .github:hover,
-.wrapper .github:hover .tooltip,
-.wrapper .github:hover .tooltip::before {
-  background-color: #333333;
-  color: #ffffff;
-}
-.wrapper .youtube:hover,
-.wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
-  background-color: #de463b;
-  color: #ffffff;
-}
+
 
 
 
@@ -253,19 +233,19 @@ I define myself as a person who always gives his best in work, loves reading, wr
 <div class="wrapper">
   
   <a href="https://twitter.com/learnerganesh" class="icon twitter">
-    <div class="tooltip">Twitter</div>
+    <div class="tooltip"></div>
     <span><i class="fab fa-twitter"></i></span>
   </a>
   <a href="https://instagram.com/thinkwewell" class="icon instagram">
-    <div class="tooltip">Instagram</div>
+    <div class="tooltip"></div>
     <span><i class="fab fa-instagram"></i></span>
   </a>
-  <a href="https://github.com/Learnerganesh/learnerganesh" class="icon github">
-    <div class="tooltip">Github</div>
+  <a href="https://github.com/learnerganesh" class="icon github">
+    <div class="tooltip"></div>
     <span><i class="fab fa-github"></i></span>
   </a>
   <a href="#" class="icon youtube">
-    <div class="tooltip">Youtube</div>
+    <div class="tooltip"></div>
     <span><i class="fab fa-youtube"></i></span>
   </a>
 </div>
