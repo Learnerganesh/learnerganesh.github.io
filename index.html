@@ -1,12 +1,13 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="eng">
+
 <head>
 <meta name="google-site-verification" content="hUSYCnqBJ_qnSrJ7EOm167UOtGmJEJ00iMmgW7wtTpY" />
 
 <title>GANESH KUMAR</title>
 <meta name="title" content="Learner Ganesh">
-<meta name="description" content="Ganesh Kumar Content Creator, Learner Ganesh, LearnerGanesh, GaneshKumar Website">
+<meta name="description" content="Hi! I'm Ganesh Kumar, a blogger, a writer and a coder. ">
 <meta name="keywords" content="Ganesh Kumar Content Creator, Learner Ganesh, LearnerGanesh, GaneshKumar Website">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -18,17 +19,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@479;500&display=swap" rel="stylesheet">
-
 <!-- Font Awesome 5.15.1 CSS -->
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
 
@@ -37,43 +27,101 @@
 <style type="text/css">
 
 body{
-
-background:lightcyan;
+margin:0;
+padding:0;
 font-family:sans-serif;
-color:dark;
 }
 
 
-nav{
-font-family: 'Fredoka', sans-serif;
-font-family: 'Montserrat', sans-serif;
+
+#header{
+top:0;
+display:flex;
+justify-content:space-between;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1); 
+
+}
+
+#header big{
+font-weight:600;
+color: #213445; 
+padding:5%
+}
+.navbar{
+height:100%;
+width:0;
+position:fixed;
+z-index:1;
+top:0;
+left:0;
+background-color: lightcyan;
+transition:0.5s;
+overflow-x:hidden;
+}
+
+.nav-content{
+position:relative;
+width:100%;
+text-align:center;
+margin-top:10%;
+}
+
+.navbar a {
+  padding: 5%;
+  text-decoration: none;
+  font-size: 120%;
+  color:  #213445;
+  display: block;
+ 
+  font-weight:800;
+}
+
+.navbar a:hover, .navbar a:focus{
+color:black;
+}
+
+.navbar .closebtn {
+  position: absolute;
+  right: 10%;
+  font-size: 300%;
+  
+} 
+
+
+
+#header a{
+text-decoration: none;
+color: #213445; 
 font-weight:800;
-position:-webkit-sticky;
-position: sticky;
+}
+
+#header span{
+cursor:pointer;
+color: #213445;
+padding:4%;
+font-weight:800;
 }
 
 
 
 #home {
 padding:8%;
-margin-top:30%;
+background-color:lightcyan;
 }
 
 
-p{
+p,li{
 
 font-size: large;
-padding: 10px;
+padding: 2%;
 line-height: 150%;
 font-weight: light;
-
+color: #213445; 
 }
 
 
 #body{
 margin-top:10%;
-
-background-color: white;
 padding:8%;
 }
 
@@ -88,85 +136,83 @@ padding:10% ;
 }
 
 h3{
-
+color: #213445; 
 margin-top:10%;
 margin-bottom:10%;
 font-family:'Montserrat', sans-serif;
 font-weight:800;
 }
 
-.wrapper{
+.wrapper {
 display:flex;
-margin:0 auto;
+align-items:center;
 }
 
 .wrapper a{
-color:white;
+color:black;
 padding:5%;
 font-size:120%;
 }
 
-.wrapper a:hover{
-opacity:0.7;
+.wrapper a:hover,a:focus{
+color:skyblue;
 }
 
+.me{
+width:90%;
+border:0px solid grey;
+}
+
+#comment{
+border:0;
+border-bottom:2px solid grey;
+width:100%;
+}
+
+.mbtn{
+border:0;
+font-size:100%;
+padding:3%;
+font-family:sans-serif;
+border-radius:5%;
+}
 
 </style>
 
 </head>
 <body>
+<!-- Navbar -->
 
-<div class="fixed-top">
-<!--  Navbar -->
-<nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">GANESH KUMAR</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#home">HOME</a>
-        </li>
-       
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#books">FAV BOOKS</a>
-        </li>
-        
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#works">WORKS</a>
-        </li>
-		<li class="nav-item">
-		<a class="nav-link active" aria-current="page" href="#skills">SKILLS</a>
-		</li>
-		
-		<li class="nav-item">
-		<a class="nav-link active" aria-current="page" href="diary.html">DIARY</a>
-		<a class="nav-link active" aria-current="page" href="https://learnerganesh.github.io/Blog/how-to-be-happy.html">BLOG</a>
-         
-       </li>
-        
-      </ul>
-      <!--
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-      
-      -->
-    </div>
-  </div>
-</nav>
+<div id="myNav" class="navbar">
+<a href="#" class="closebtn" onclick="closeNav()" style="top:0;">&times;</a>
+	<br>
+	<br>
+	<div class="nav-content">
+	<a href="https://learnerganesh.github.io" >HOME</a>
+	<a href="https://thinkwewell.in" >BLOGS</a>
+	<a href="https://learnerganesh.github.io/diary.html" >DIARY</a>
+	<a href="#contact" >CONTACT</a>
+	</div>
+
 </div>
 
+<div id="header">
+<big><a href="https://learnerganesh.github.io" >GANESH KUMAR</a></big>
+<span onclick="openNav()" >&#9776;</span>
+</div>
+
+
+
+
 <div id="home" >
-<br>
-<p style="font-size:130%;font-weight:500;font-family:'Montserrat', sans-serif;
+
+<p style="font-size:130%;font-weight:500;
 font-weight:800;">Hi, I'm <br>
 GANESH KUMAR<br></p>
 <p><small>BLOGGER | CODER | WRITER<br></small></p>
-<p>I define myself as a person who always gives his best in work, loves reading, writing,Science, Astronomy and making people happy. In general, who believes in good mindset, he is creative, innovative and visionary.
+
+<img src="Avatar/me.png" class="me" alt="LearnerGanesh Avatar ">
+<p style="line-height:180%;">I define myself as a person who always gives his best in work, loves reading, writing,Science, Astronomy and making people happy. In general, who believes in good mindset, he is creative, innovative and visionary.
 </p>
 </div>
 
@@ -174,20 +220,25 @@ GANESH KUMAR<br></p>
 
 <div id="books">
 <br>
+<br>
 <h3>FAVOURITE BOOKS</h3>
-<p>
-• As a Man Thinketh – James Allen<br>
-• Atomic Habit – James Clear<br>
-• Six Easy Pieces – Richard P. Feynman<br>
-• Karma Yoga – Swami Vivekananda<br>
-</p>
+<img src="Avatar/melove.png" class="me" alt="LearnerGanesh Avatar">
+
+<ul>
+ <li>As a Man Thinketh – James Allen</li>
+<li>Atomic Habit – James Clear</li>
+<li>Six Easy Pieces – Richard P. Feynman</li>
+<li>Karma Yoga – Swami Vivekananda</li>
+</ul>
+
 </div>
 
 <div id="works">
 <br>
+<br>
 <h3>MY WORKS</h3>
 
-
+<img src="Avatar/mehero.png" class="me" alt="LearnerGanesh Avatar">
 <a href="https://sphereroot.in" rel="dofollow" style="text-decoration:underline dashed black; color: black;">SPHEREROOT</a>
 <p>A blog that is for Space lovers.</p>
 
@@ -197,58 +248,83 @@ GANESH KUMAR<br></p>
 
 <div id="skills">
 <br>
+<br>
 <h3>SKILLS</h3>
-<p>
-• Front-End Development<br>
-• Web Designing<br>
-• Python<br>
-• Tkinter & KIVY<br>
-• C++<br>
-• Blogging<br>
 
-• Video Editing<br>
+<ul>
+<li>Front-End Development</li>
+<li>Web Designing</li>
+<li>Python</li>
+<li>Tkinter & KIVY</li>
+<li>C++</li>
+<li>Blogging</li>
 
-</p>
+<li>Video Editing</li>
+</ul>
+
+
+<br>
+
+<hr>
+<h3>LATEST ARTICLES</h3>
+<a href="https://learnerganesh.github.io/Blog/how-to-be-happy" style="color:black;text-decoration:underline dotted black;"><p>How to Become Happy? 5 Ways to Become Happy</p></a>
+
+<br>
+
+
+<div class="wrapper">
+  <h3>FOLLOW ME</h3>
+  <a href="https://twitter.com/Learnerganesh" class="twitter">
+    <div class="tooltip"></div>
+    <span><i class="fab fa-twitter"></i></span>
+  </a>
+  <a href="https://instagram.com/thinkwewell" class="instagram">
+    <div class="tooltip"></div>
+    <span><i class="fab fa-instagram"></i></span>
+  </a>
+  <a href="https://github.com/learnerganesh" class="github">
+    <div class="tooltip"></div>
+    <span><i class="fab fa-github"></i></span>
+  </a>
+  <a href="#" class="youtube">
+    <div class="tooltip"></div>
+    <span><i class="fab fa-youtube"></i></span>
+  </a>
 </div>
 
-<br>
+</div>
 
+<div id="contact">
 <br>
+<h3>CONTACT</h3>
+<form action="mailto:learning.attention@gmail.com" method="post" enctype="text/plain">
+<textarea type="text" name="comment" id="comment" row="1">Write your thought...</textarea><br><br>
+<input type="submit" value="SEND" class="mbtn" >
+<input type="reset" value="RESET" class="mbtn">
+</form>
+</div>
+
 </section>
 
+<footer>
 
- <footer>
- Designed With &#10084;
- <a href="https://ganeshkumar.github.io" style="text-decoration: none; color:white;">GANESH KUMAR</a>
- 
- 
- 
- <div class="wrapper" style="margin-left: 20%;">
- 
- <a href="https://twitter.com/learnerganesh" class="twitter">
- <div class="tooltip"></div>
- <span><i class="fab fa-twitter"></i></span>
- </a>
- <a href="https://instagram.com/thinkwewell" class="instagram">
- <div class="tooltip"></div>
- <span><i class="fab fa-instagram"></i></span>
- </a>
- <a href="https://github.com/learnerganesh" class="github">
- <div class="tooltip"></div>
- <span><i class="fab fa-github"></i></span>
- </a>
- <a href="https://youtube.com/channel/UC0cxt8aqvwethT-869CNGLw" class="youtube">
- <div class="tooltip"></div>
- <span><i class="fab fa-youtube"></i></span>
- </a>
- </div>
- 
- </footer>
- 
+<a href="https://learnerganesh.github.io" style="text-decoration: none; color:darkorange; font-size:130%;font-weight:600;">GANESH KUMAR</a>
+<br> <br>
+Powered By &#10084;
+</footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 
+
+<script>
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 </script>
 
 </body>
